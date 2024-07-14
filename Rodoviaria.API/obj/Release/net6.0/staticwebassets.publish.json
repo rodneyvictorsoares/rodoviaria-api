@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "TFPM/UuHzCHQhCiGRUOqocb/75PB4uCylBJrm2V3Rxk=",
+  "Source": "Rodoviaria.API",
+  "BasePath": "_content/Rodoviaria.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

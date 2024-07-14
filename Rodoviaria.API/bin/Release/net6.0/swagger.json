@@ -1,0 +1,323 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Rodoviaria.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Passagem": {
+      "get": {
+        "tags": [
+          "Passagem"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Passagem"
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Passagem"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/VendaPassagem"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Passagem/{PassagemId}": {
+      "get": {
+        "tags": [
+          "Passagem"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "PassagemId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/Passagem"
+            }
+          }
+        }
+      }
+    },
+    "/api/Viagem": {
+      "get": {
+        "tags": [
+          "Viagem"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Viagem"
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Viagem"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/CadastroViagem"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Viagem"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Viagem"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Viagem/{ViagemId}": {
+      "get": {
+        "tags": [
+          "Viagem"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "ViagemId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/Viagem"
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Viagem"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "ViagemId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "CadastroViagem": {
+      "type": "object",
+      "properties": {
+        "origem": {
+          "type": "string"
+        },
+        "destino": {
+          "type": "string"
+        },
+        "dataPartida": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "dataChegada": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "preco": {
+          "format": "double",
+          "type": "number"
+        }
+      }
+    },
+    "Passagem": {
+      "type": "object",
+      "properties": {
+        "passagemId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "passageiro": {
+          "type": "string"
+        },
+        "cpf": {
+          "type": "string"
+        },
+        "rg": {
+          "type": "string"
+        },
+        "valor": {
+          "format": "double",
+          "type": "number"
+        },
+        "cadeira": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "ehMeia": {
+          "type": "boolean"
+        },
+        "destino": {
+          "type": "string"
+        },
+        "dataPartida": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "preco": {
+          "format": "double",
+          "type": "number"
+        }
+      }
+    },
+    "VendaPassagem": {
+      "type": "object",
+      "properties": {
+        "passageiro": {
+          "type": "string"
+        },
+        "cpf": {
+          "type": "string"
+        },
+        "rg": {
+          "type": "string"
+        },
+        "tipoId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "viagemId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "cadeira": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "Viagem": {
+      "type": "object",
+      "properties": {
+        "viagemId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "destino": {
+          "type": "string"
+        },
+        "dataPartida": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "preco": {
+          "format": "double",
+          "type": "number"
+        },
+        "lugaresLivres": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "gratuidades": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

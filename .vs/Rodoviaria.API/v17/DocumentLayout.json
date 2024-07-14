@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projetos\\ASPNET\\Rodoviaria\\API\\Rodoviaria.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{855DC0F1-A399-46F1-8F36-9F03A6DBC1FC}|Rodoviaria.API\\Rodoviaria.API.csproj|e:\\projetos\\aspnet\\rodoviaria\\api\\rodoviaria.api\\rodoviaria.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{855DC0F1-A399-46F1-8F36-9F03A6DBC1FC}|Rodoviaria.API\\Rodoviaria.API.csproj|solutionrelative:rodoviaria.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855DC0F1-A399-46F1-8F36-9F03A6DBC1FC}|Rodoviaria.API\\Rodoviaria.API.csproj|e:\\projetos\\aspnet\\rodoviaria\\api\\rodoviaria.api\\rodoviaria.api\\controllers\\passagemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855DC0F1-A399-46F1-8F36-9F03A6DBC1FC}|Rodoviaria.API\\Rodoviaria.API.csproj|solutionrelative:rodoviaria.api\\controllers\\passagemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855DC0F1-A399-46F1-8F36-9F03A6DBC1FC}|Rodoviaria.API\\Rodoviaria.API.csproj|e:\\projetos\\aspnet\\rodoviaria\\api\\rodoviaria.api\\rodoviaria.api\\controllers\\viagemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855DC0F1-A399-46F1-8F36-9F03A6DBC1FC}|Rodoviaria.API\\Rodoviaria.API.csproj|solutionrelative:rodoviaria.api\\controllers\\viagemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855DC0F1-A399-46F1-8F36-9F03A6DBC1FC}|Rodoviaria.API\\Rodoviaria.API.csproj|e:\\projetos\\aspnet\\rodoviaria\\api\\rodoviaria.api\\rodoviaria.api\\models\\vendapassagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855DC0F1-A399-46F1-8F36-9F03A6DBC1FC}|Rodoviaria.API\\Rodoviaria.API.csproj|solutionrelative:rodoviaria.api\\models\\vendapassagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855DC0F1-A399-46F1-8F36-9F03A6DBC1FC}|Rodoviaria.API\\Rodoviaria.API.csproj|e:\\projetos\\aspnet\\rodoviaria\\api\\rodoviaria.api\\rodoviaria.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855DC0F1-A399-46F1-8F36-9F03A6DBC1FC}|Rodoviaria.API\\Rodoviaria.API.csproj|solutionrelative:rodoviaria.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855DC0F1-A399-46F1-8F36-9F03A6DBC1FC}|Rodoviaria.API\\Rodoviaria.API.csproj|e:\\projetos\\aspnet\\rodoviaria\\api\\rodoviaria.api\\rodoviaria.api\\models\\cadastroviagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855DC0F1-A399-46F1-8F36-9F03A6DBC1FC}|Rodoviaria.API\\Rodoviaria.API.csproj|solutionrelative:rodoviaria.api\\models\\cadastroviagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855DC0F1-A399-46F1-8F36-9F03A6DBC1FC}|Rodoviaria.API\\Rodoviaria.API.csproj|e:\\projetos\\aspnet\\rodoviaria\\api\\rodoviaria.api\\rodoviaria.api\\models\\passagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855DC0F1-A399-46F1-8F36-9F03A6DBC1FC}|Rodoviaria.API\\Rodoviaria.API.csproj|solutionrelative:rodoviaria.api\\models\\passagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855DC0F1-A399-46F1-8F36-9F03A6DBC1FC}|Rodoviaria.API\\Rodoviaria.API.csproj|e:\\projetos\\aspnet\\rodoviaria\\api\\rodoviaria.api\\rodoviaria.api\\models\\viagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855DC0F1-A399-46F1-8F36-9F03A6DBC1FC}|Rodoviaria.API\\Rodoviaria.API.csproj|solutionrelative:rodoviaria.api\\models\\viagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projetos\\ASPNET\\Rodoviaria\\API\\Rodoviaria.API\\Rodoviaria.API\\Program.cs",
+              "RelativeDocumentMoniker": "Rodoviaria.API\\Program.cs",
+              "ToolTip": "E:\\Projetos\\ASPNET\\Rodoviaria\\API\\Rodoviaria.API\\Rodoviaria.API\\Program.cs",
+              "RelativeToolTip": "Rodoviaria.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T05:40:13.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PassagemController.cs",
+              "DocumentMoniker": "E:\\Projetos\\ASPNET\\Rodoviaria\\API\\Rodoviaria.API\\Rodoviaria.API\\Controllers\\PassagemController.cs",
+              "RelativeDocumentMoniker": "Rodoviaria.API\\Controllers\\PassagemController.cs",
+              "ToolTip": "E:\\Projetos\\ASPNET\\Rodoviaria\\API\\Rodoviaria.API\\Rodoviaria.API\\Controllers\\PassagemController.cs",
+              "RelativeToolTip": "Rodoviaria.API\\Controllers\\PassagemController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T05:40:13.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Projetos\\ASPNET\\Rodoviaria\\API\\Rodoviaria.API\\Rodoviaria.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Rodoviaria.API\\appsettings.json",
+              "ToolTip": "E:\\Projetos\\ASPNET\\Rodoviaria\\API\\Rodoviaria.API\\Rodoviaria.API\\appsettings.json",
+              "RelativeToolTip": "Rodoviaria.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-14T05:40:13.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViagemController.cs",
+              "DocumentMoniker": "E:\\Projetos\\ASPNET\\Rodoviaria\\API\\Rodoviaria.API\\Rodoviaria.API\\Controllers\\ViagemController.cs",
+              "RelativeDocumentMoniker": "Rodoviaria.API\\Controllers\\ViagemController.cs",
+              "ToolTip": "E:\\Projetos\\ASPNET\\Rodoviaria\\API\\Rodoviaria.API\\Rodoviaria.API\\Controllers\\ViagemController.cs",
+              "RelativeToolTip": "Rodoviaria.API\\Controllers\\ViagemController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T05:40:13.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VendaPassagem.cs",
+              "DocumentMoniker": "E:\\Projetos\\ASPNET\\Rodoviaria\\API\\Rodoviaria.API\\Rodoviaria.API\\Models\\VendaPassagem.cs",
+              "RelativeDocumentMoniker": "Rodoviaria.API\\Models\\VendaPassagem.cs",
+              "ToolTip": "E:\\Projetos\\ASPNET\\Rodoviaria\\API\\Rodoviaria.API\\Rodoviaria.API\\Models\\VendaPassagem.cs",
+              "RelativeToolTip": "Rodoviaria.API\\Models\\VendaPassagem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T05:40:13.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CadastroViagem.cs",
+              "DocumentMoniker": "E:\\Projetos\\ASPNET\\Rodoviaria\\API\\Rodoviaria.API\\Rodoviaria.API\\Models\\CadastroViagem.cs",
+              "RelativeDocumentMoniker": "Rodoviaria.API\\Models\\CadastroViagem.cs",
+              "ToolTip": "E:\\Projetos\\ASPNET\\Rodoviaria\\API\\Rodoviaria.API\\Rodoviaria.API\\Models\\CadastroViagem.cs",
+              "RelativeToolTip": "Rodoviaria.API\\Models\\CadastroViagem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T05:40:13.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Passagem.cs",
+              "DocumentMoniker": "E:\\Projetos\\ASPNET\\Rodoviaria\\API\\Rodoviaria.API\\Rodoviaria.API\\Models\\Passagem.cs",
+              "RelativeDocumentMoniker": "Rodoviaria.API\\Models\\Passagem.cs",
+              "ToolTip": "E:\\Projetos\\ASPNET\\Rodoviaria\\API\\Rodoviaria.API\\Rodoviaria.API\\Models\\Passagem.cs",
+              "RelativeToolTip": "Rodoviaria.API\\Models\\Passagem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T05:40:13.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Viagem.cs",
+              "DocumentMoniker": "E:\\Projetos\\ASPNET\\Rodoviaria\\API\\Rodoviaria.API\\Rodoviaria.API\\Models\\Viagem.cs",
+              "RelativeDocumentMoniker": "Rodoviaria.API\\Models\\Viagem.cs",
+              "ToolTip": "E:\\Projetos\\ASPNET\\Rodoviaria\\API\\Rodoviaria.API\\Rodoviaria.API\\Models\\Viagem.cs",
+              "RelativeToolTip": "Rodoviaria.API\\Models\\Viagem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T05:40:13.698Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

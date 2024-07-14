@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "SbtRsCxpzRjsLutr57WlApbvyqWK8wrgUnqUkJHDCso=",
+  "Source": "Rodoviaria.API",
+  "BasePath": "_content/Rodoviaria.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
